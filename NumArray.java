@@ -13,6 +13,7 @@ public class NumArray {
 	public int sumRange(int i, int j) {
 		return sum[j + 1] - sum[i];
 	}
+
 	public static void main(String[] args) {
 		int[] nums = {-2, 0, 3, -5, 2, -1};
 		NumArray obj = new NumArray(nums);

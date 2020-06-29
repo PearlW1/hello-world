@@ -1,5 +1,6 @@
 // two methods for this question
 //https://leetcode.com/problems/valid-sudoku/
+// 36: 每一行、每列、每个3*3的方块中包含1-9不重复的数据，返回true。
 
 import java.util.HashSet;
 
